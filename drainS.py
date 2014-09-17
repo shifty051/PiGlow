@@ -1,5 +1,6 @@
 ###############################################################
-# Set the LEDs to turn on/off in pairs of 2 toward the centre
+# Set the LEDs to turn on/off in pairs of 2 toward the centre, 
+# whilst increasing and deacreasing in brightness
 # shifty051
 ###############################################################
 
