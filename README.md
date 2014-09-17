@@ -10,6 +10,7 @@ cpuS.py - A modified version of the cpu.py script from Jason Barnett (@Boeeerb).
 
 softS.py -Cycles the LEDs sequentially from the outside toward the centre whilst gradually increasing/decreasing the                 brightness
 
+tickS.py -Cyles the LEDs ON in sequential order. Once all are activated, cycles them OFF in reverse order (from the                  centre)
 
 Requirements 
 ============
