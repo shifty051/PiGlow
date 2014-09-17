@@ -12,6 +12,10 @@ softS.py -Cycles the LEDs sequentially from the outside toward the centre whilst
 
 tickS.py -Cyles the LEDs ON in sequential order. Once all are activated, cycles them OFF in reverse order (from the                  centre)
 
+spiralS.py - Cycles the LEDs on/off in a spiral motion toward the centre. Each colour on each arm is turned on/off in                order 
+
+spiralS-2.py - A modified version of spiralS.py. LEDs stay on as they are cycled until all LEDs have been activated, at                                 which they reset to default state. 
+
 Requirements 
 ============
 
