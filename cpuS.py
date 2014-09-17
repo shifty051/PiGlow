@@ -1,8 +1,10 @@
-##########################################################
-# Custom CPU Activity Monitor ##
+########################################################################
+# Custom CPU Activity Monitor 
+# This code was adapted from Jason Barnett's code. (@Boeeerb)
+# All credit goes to him. I simply changed the values to suit my purpose.
 # Requires psutil - sudo apt-get install python-psutil ##
 # Shifty051 
-##########################################################
+########################################################################
 
 from piglow import PiGlow
 from time import sleep
