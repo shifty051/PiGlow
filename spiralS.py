@@ -1,8 +1,7 @@
-###############################################################
-# Set the LEDs to turn on/off in pairs of 2 toward the centre, 
-# whilst increasing and decreasing in brightness
+##################################################################
+# Set the LEDs to turn on/off in a spiral fashion toward the centre
 # shifty051
-###############################################################
+##################################################################
 
 from piglow import PiGlow
 from time import sleep
