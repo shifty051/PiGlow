@@ -1,42 +1,41 @@
-import threading
-from collections import deque
+import os
+import subprocess
 import time
-import psutil
+from daemon import runner
+import datetime
+import re 
+
+class App():
+    def __init__(self):
+        self.stdin_path = '/dev/null'
+        self.stdout_path = '/dev/tty'
+        self.stderr_path = '/dev/tty'
+        self.pidfile_path =  '/tmp/bandwidth_counter.pid'
+        self.pidfile_timeout = 5
+    def run(self):
+        rx_megabits_new = 0
+        tx_megabits_new = 0
+        try:
+                while True:
+                        output = subprocess.Popen(['ifconfig', "wlan0"], stdout=subprocess.PIPE).communicate()[0]
+                        rx_bytes = re.findall('RX bytes:([0-9]*) ', output)[0]
+                        tx_bytes = re.findall('TX bytes:([0-9]*) ', output)[0]
+                        rx_megabits = (((int(rx_bytes) * 8) / 1024) / 1024)
+                        tx_megabits = (((int(tx_bytes) * 8) / 1024) / 1024)
+                        current_rx_usage = rx_megabits - rx_megabits_new
+                        current_tx_usage = tx_megabits - tx_megabits_new
+                        rx_megabits_new = rx_megabits
+                        tx_megabits_new = tx_megabits 
+                        print 'average megabits received', current_rx_usage / 60
+                        print 'average kilobits received', (current_rx_usage * 1024) / 60
+                        print 'average megabits sent', current_tx_usage / 60
+                        print 'average kilobits sent', (current_tx_usage * 1024) / 60
+                        time.sleep(60)
+
+        except Exception, e:
+            raise
 
 
-def calc_ul_dl(rate, dt=3, interface='WiFi'):
-    t0 = time.time()
-    counter = psutil.net_io_counters(pernic=True)[interface]
-    tot = (counter.bytes_sent, counter.bytes_recv)
-
-    while True:
-        last_tot = tot
-        time.sleep(dt)
-        counter = psutil.net_io_counters(pernic=True)[interface]
-        t1 = time.time()
-        tot = (counter.bytes_sent, counter.bytes_recv)
-        ul, dl = [(now - last) / (t1 - t0) / 1000.0
-                  for now, last in zip(tot, last_tot)]
-        rate.append((ul, dl))
-        t0 = time.time()
-
-
-def print_rate(rate):
-    try:
-        print 'UL: {0:.0f} kB/s / DL: {1:.0f} kB/s'.format(*rate[-1])
-    except IndexError:
-        'UL: - kB/s/ DL: - kB/s'
-
-
-# Create the ul/dl thread and a deque of length 1 to hold the ul/dl- values
-transfer_rate = deque(maxlen=1)
-t = threading.Thread(target=calc_ul_dl, args=(transfer_rate,))
-
-# The program will exit if there are only daemonic threads left.
-t.daemon = True
-t.start()
-
-# The rest of your program, emulated by me using a while True loop
-while True:
-    print_rate(transfer_rate)
-    time.sleep(5)
+app = App()
+daemon_runner = runner.DaemonRunner(app)
+daemon_runner.do_action()
