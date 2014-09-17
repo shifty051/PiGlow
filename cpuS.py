@@ -42,5 +42,5 @@ while True:
 
   else:
     piglow.white(20)
-    sleep(0.5)
+    sleep(3)
 
