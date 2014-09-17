@@ -65,5 +65,5 @@ while True:
   piglow.led(18,1)
   sleep(0.1)
   
-  piglow.all(0)
+  piglow.led1-led18(0)
   sleep(0.1)
