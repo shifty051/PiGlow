@@ -12,6 +12,7 @@ piglow = PiGlow()
 while True:
 
   piglow.led(1,1)
+  piglow.led(18,0)
   sleep(0.1)
 
   piglow.led(7,1)
