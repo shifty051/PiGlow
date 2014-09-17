@@ -1,9 +1,9 @@
-@@ -0,0 +1,42 @@
 ##########################################################
 # Custom CPU Activity Monitor ##
 # Requires psutil - sudo apt-get install python-psutil ##
 # Shifty051 
 ##########################################################
+
 from piglow import PiGlow
 from time import sleep
 import psutil
@@ -41,5 +41,4 @@ piglow.blue(10)
 else:
 piglow.white(20)
 sleep(0.5)
- No newline at end of file
 
