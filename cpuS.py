@@ -35,7 +35,7 @@ while True:
 
   elif cpu < 80:
     piglow.red(10)
-    piglow.orange(`0)
+    piglow.orange(10)
     piglow.yellow(10)
     piglow.green(10)
     piglow.blue(10)
