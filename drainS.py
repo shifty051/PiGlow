@@ -1,5 +1,5 @@
 ###############################################################
-# Set the LEDs to turn on/off in sequence in a breathing fashion
+# Set the LEDs to turn on/off in pairs of 2 toward the centre
 # shifty051
 ###############################################################
 
@@ -10,8 +10,6 @@ piglow = PiGlow()
 
 while True:
 
-  piglow.red(5)
-  sleep(0.5)
   
   piglow.orange(5)
   sleep(0.5)
@@ -36,6 +34,7 @@ while True:
   sleep(0.5)
   
   piglow.white(0)
+  piglow.red(5)
   sleep(0.5)
   
   
