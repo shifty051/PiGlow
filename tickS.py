@@ -1,5 +1,5 @@
 #############################
-# Calm LED effect for piglow
+# Set the LEDs to turn on/off in sequence piglow
 # shifty051
 #############################
 
