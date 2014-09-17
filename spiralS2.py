@@ -65,5 +65,10 @@ while True:
   piglow.led(18,1)
   sleep(0.1)
   
-  piglow.led1-led18(0)
+  piglow.red(0)
+  piglow.yellow(0)
+  piglow.orange(0)
+  piglow.green(0)
+  piglow.blue(0)
+  piglow.white(0)
   sleep(0.1)
