@@ -1,7 +1,10 @@
-##################################################################
+########################################################################################
 # A fun set of patterns that progress sequentially
+# The first sequence is a modified version of 'spiralS' where the LEDs brighten and dim;
+# The second sequence
+
 # shifty051
-##################################################################
+########################################################################################
 
 from piglow import PiGlow
 from time import sleep
@@ -346,3 +349,5 @@ while True:
   
   piglow.led(18,0)
   sleep(0.05)
+  
+  
