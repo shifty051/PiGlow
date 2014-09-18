@@ -390,70 +390,31 @@ while True:
   
   piglow.blue(3)
   piglow.white(1)
-  sleep(0.1)
+  sleep(0.05)
   
   piglow.blue(4)
   piglow.white(2)
-  sleep(0.1)
+  sleep(0.05)
   
   piglow.white(3)
-  sleep(0.1)
+  sleep(0.05)
   
   piglow.white(4)
-  sleep(0.1)
+  sleep(0.05)
   
   piglow.white(5)
-  sleep(0.1)
+  sleep(0.05)
   
   piglow.white(6)
-  sleep(0.1)
+  sleep(0.05)
   
   piglow.white(7)
-  sleep(0.1)
+  sleep(0.05)
+  
+  piglow.white(8)
+  sleep(2)
   
   
-  piglow.yellow(1)
-  piglow.green(3)
-  piglow.blue(1)
-  sleep(0.1)
   
-  piglow.yellow(0)
-  piglow.green(2)
-  piglow.blue(2)
-  sleep(0.1)
-  
-  piglow.green(1)
-  piglow.blue(3)
-  piglow.white(1)
-  sleep(0.1)
-  
-  piglow.green(0)
-  piglow.blue(4)
-  piglow.white(2)
-  sleep(0.1)
-  
-  piglow.blue(3)
-  piglow.white(3)
-  sleep(0.1)
-  
-  piglow.blue(2)
-  piglow.white(4)
-  sleep(0.1)
-  
-  piglow.blue(1)
-  piglow.white(3)
-  sleep(0.1)
-  
-  piglow.blue(0)
-  piglow.white(2)
-  sleep(0.1)
-  
-  piglow.white(1)
-  sleep(0.1)
-  
-  piglow.white(0)
-  sleep(0.1)
-  
-
   
   
