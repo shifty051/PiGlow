@@ -248,23 +248,101 @@ while True:
   piglow.led(5,3)
   sleep(0.05)
   
+  piglow.led(5,2)
+  piglow.led(11,1)
+  sleep(0.05)
+  
+  piglow.led(5,1)
+  piglow.led(11,2)
+  sleep(0.05)
+  
+  piglow.led(5,0)
+  piglow.led(11,3)
+  sleep(0.05)
+  
+  piglow.led(11,4)
+  sleep(0.05)
+  
+  piglow.led(11,3)
+  sleep(0.05)
+  
+  piglow.led(11,2)
+  piglow.led(17,1)
+  sleep(0.05)
   
   piglow.led(11,1)
-  piglow.led(5,0)
-  sleep(0.1)
-
-  piglow.led(17,1)
+  piglow.led(17,2)
+  sleep(0.05)
+  
   piglow.led(11,0)
-  sleep(0.1)
-
+  piglow.led(17,3)
+  sleep(0.05)
+  
+  piglow.led(17,4)
+  sleep(0.05)
+  
+  piglow.led(17,3)
+  sleep(0.05)
+  
+  piglow.led(17,2)
   piglow.led(6,1)
+  sleep(0.05)
+  
+  piglow.led(17,1)
+  piglow.led(6,2)
+  sleep(0.05)
+  
   piglow.led(17,0)
-  sleep(0.1)
+  piglow.led(6,3)
+  sleep(0.05)
+  
+  piglow.led(6,4)
+  sleep(0.05)
+  
+  piglow.led(6,3)
+  sleep(0.05)
+  
+  piglow.led(6,2)
+  piglow.led(12,1)
+  sleep(0.05)
+  
+  piglow.led(6,1)
+  piglow.led(12,2)
+  sleep(0.05)
+  
+  piglow.led(6,0)
+  piglow.led(12,3)
+  sleep(0.05)
+  
+  piglow.led(12,4)
+  sleep(0.05)
+  
+  piglow.led(12,3)
+  sleep(0.05)
+  
+  piglow.led(12,2)
+  piglow.led(18,1)
+  sleep(0.05)
 
   piglow.led(12,1)
-  piglow.led(6,0)
-  sleep(0.1)
+  piglow.led(18,2)
+  sleep(0.05)
+  
+  piglow.led(12,0)
+  piglow.led(18,3)
+  sleep(0.05)
+  
+  piglow.led(18,4)
+  sleep(0.05)
+  
+  piglow.led(18,3)
+  sleep(0.05)
+  
+  piglow.led(18,2)
+  sleep(0.05)
 
   piglow.led(18,1)
-  piglow.led(12,0)
-  sleep(0.1)
+  sleep(0.05)
+  
+  piglow.led(18,0)
+  sleep(0.05)
