@@ -659,7 +659,7 @@ while True:
   piglow.red(3)
   sleep(0.1)
   
-   piglow.white(1)
+  piglow.white(1)
   piglow.orange(0)
   piglow.red(2)
   sleep(0.1)
