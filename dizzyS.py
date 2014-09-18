@@ -19,7 +19,7 @@ while True:
   sleep(0.5)
   
   piglow.led(7,1)
-  piglow.led(1.0)
+  piglow.led(1,0)
   sleep(0.5)
   
   piglow.led(13,1)
@@ -31,7 +31,7 @@ while True:
   sleep(0.5)
   
   piglow.led(7,1)
-  piglow.led(1.0)
+  piglow.led(1,0)
   sleep(0.5)
   
   piglow.led(13,1)
@@ -43,7 +43,7 @@ while True:
   sleep(0.5)
   
   piglow.led(7,1)
-  piglow.led(1.0)
+  piglow.led(1,0)
   sleep(0.5)
   
   piglow.led(13,1)
