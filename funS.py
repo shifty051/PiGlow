@@ -531,6 +531,25 @@ while True:
   piglow.led(13,6)
   sleep(0.05)
   
+  piglow.led(13,5)
+  sleep(0.05)
+  
+  piglow.led(13,4)
+  sleep(0.05)
+  
+  piglow.led(13,3)
+  sleep(0.05)
+  
+  piglow.led(13,2)
+  sleep(0.05)
+  
+  piglow.led(13,1)
+  sleep(0.05)
+  
+  piglow.led(13,0)
+  sleep(0.05)
+  
+  
   
   
   
