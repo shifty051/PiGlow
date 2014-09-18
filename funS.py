@@ -1,7 +1,9 @@
 ########################################################################################
 # A fun set of patterns that progress sequentially
 # The first sequence is a modified version of 'spiralS' where the LEDs brighten and dim;
-# The second sequence
+# The second sequence lights all LEDs by colour sequentially toward the centre by increasing brightness
+# The third sequence turns off LEDs in a spiral pattern away from the centre
+
 
 # shifty051
 ########################################################################################
@@ -468,14 +470,7 @@ while True:
   piglow.red(4)
   sleep(1.5)
   
-  piglow.led(6,0)
-  sleep(0.05)
   
-  piglow.led(12,0)
-  sleep(0.05)
-  
-  piglow.led(18,0)
-  sleep(0.05)
   
   piglow.led(5,0)
   sleep(0.05)
@@ -547,7 +542,162 @@ while True:
   sleep(0.05)
   
   piglow.led(13,0)
-  sleep(0.05)
+  sleep(2)
+  
+  
+  
+  piglow.white(3)
+  sleep(0.1)
+  
+  piglow.white(2)
+  sleep(0.1)
+  
+  piglow.white(1)
+  sleep(1)
+  
+  piglow.white(4)
+  sleep(0.1)
+  
+  piglow.white(3)
+  sleep(0.1)
+  
+  piglow.white(2)
+  sleep(0.1)
+  
+  piglow.white(1)
+  sleep(1)
+  
+  piglow.white(3)
+  sleep(0.1)
+  
+  piglow.white(2)
+  sleep(0.1)
+  
+  piglow.white(1)
+  sleep(1)
+  
+  piglow.white(4)
+  sleep(0.1)
+  
+  piglow.white(3)
+  piglow.blue(1)
+  sleep(0.1)
+  
+  piglow.white(2)
+  piglow.blue(2)
+  sleep(0.1)
+  
+  piglow.white(1)
+  piglow.blue(3)
+  piglow.green(1)
+  sleep(0.1)
+  
+  piglow.white(4)
+  piglow.blue(4)
+  piglow.green(2)
+  sleep(0.1)
+  
+  piglow.white(3)
+  piglow.blue(3)
+  piglow.green(3)
+  piglow.yellow(1)
+  sleep(0.1)
+  
+  piglow.white(2)
+  piglow.blue(4)
+  piglow.green(4)
+  piglow.yellow(2)
+  sleep(0.1)
+  
+  piglow.white(1)
+  piglow.blue(3)
+  piglow.green(3)
+  piglow.yellow(3)
+  sleep(0.1)
+  
+  piglow.white(4)
+  piglow.blue(2)
+  piglow.green(2)
+  piglow.yellow(4)
+  piglow.orange(1)
+  sleep(0.1)
+  
+  piglow.white(3)
+  piglow.blue(1)
+  piglow.green(1)
+  piglow.yellow(3)
+  piglow.orange(2)
+  sleep(0.1)
+  
+  piglow.white(2)
+  piglow.blue(0)
+  piglow.green(0)
+  piglow.yellow(2)
+  piglow.orange(3)
+  piglow.red(1)
+  sleep(0.1)
+  
+  piglow.white(1)
+  piglow.yellow(1)
+  piglow.orange(4)
+  piglow.red(2)
+  sleep(0.1)
+  
+  piglow.white(4)
+  piglow.yellow(0)
+  piglow.orange(3)
+  piglow.red(3)
+  sleep(0.1)
+  
+  piglow.white(3)
+  piglow.orange(2)
+  piglow.red(4)
+  sleep(0.1)
+  
+  piglow.white(2)
+  piglow.orange(1)
+  piglow.red(3)
+  sleep(0.1)
+  
+   piglow.white(1)
+  piglow.orange(0)
+  piglow.red(2)
+  sleep(0.1)
+  
+  piglow.white(4)
+  piglow.red(1)
+  sleep(0.1)
+  
+  piglow.white(3)
+  piglow.red(0)
+  sleep(0.1)
+  
+  piglow.white(2)
+  sleep(0.1)
+  
+  piglow.white(1)
+  sleep(0.1)
+  
+  piglow.white(0)
+  sleep(1)
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
   
   
   
