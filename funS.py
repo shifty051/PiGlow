@@ -120,46 +120,135 @@ while True:
   sleep(0.05)
   
   piglow.led(14,2)
+  piglow.led(3,1)
+  sleep(0.05)
+  
+  piglow.led(14,1)
+  piglow.led(3,2)
+  sleep(0.05)
+  
+  piglow.led(14,0)
+  piglow.led(3,2)
+  sleep(0.05)
+  
+  piglow.led(3,3)
+  sleep(0.05)
+  
+  piglow.led(3,4)
+  sleep(0.05)
+  
+  piglow.led(3,3)
+  sleep(0.05)
+  
+  piglow.led(3,2)
+  piglow.led(9,1)
+  sleep(0.05)
+  
+  piglow.led(3,1)
+  piglow.led(9,2)
+  sleep(0.05)
+  
+  piglow.led(3,0)
+  piglow.led(9,3)
+  sleep(0.05)
+  
+  piglow.led(9,4)
+  sleep(0.05)
+  
+  piglow.led(9,3)
+  sleep(0.05)
+  
+  piglow.led(9,2)
+  piglow.led(15,1)
+  sleep(0.05)
+  
+  piglow.led(9,1)
+  piglow.led(15,2)
+  sleep(0.05)
+  
+  piglow.led(9,0)
+  piglow.led(15,3)
+  sleep(0.05)
+  
+  piglow.led(15,4)
+  sleep(0.05)
+  
+  piglow.led(15,3)
+  sleep(0.05)
+
+  piglow.led(15,2)
+  piglow.led(4,1)
+  sleep(0.05)  
+  
+  piglow.led(15,1)
+  piglow.led(4,2)
+  sleep(0.05) 
+  
+  piglow.led(15,0)
+  piglow.led(4,3)
+  sleep(0.05) 
+  
+  piglow.led(4,4)
+  sleep(0.05) 
+  
+  piglow.led(4,3)
+  sleep(0.05) 
+  
+  piglow.led(4,2)
+  piglow.led(10,1)
+  sleep(0.05) 
+  
+  piglow.led(4,1)
+  piglow.led(10,2)
+  sleep(0.05) 
+  
+  piglow.led(4,0)
+  piglow.led(10,3)
+  sleep(0.05) 
+  
+  piglow.led(10,4)
+  sleep(0.05) 
+  
+  piglow.led(10,3)
+  sleep(0.05) 
+  
+  piglow.led(10,2)
+  piglow.led(16,1)
+  sleep(0.05) 
+  
+  piglow.led(10,1)
+  piglow.led(16,2)
+  sleep(0.05)
+  
+  piglow.led(10,0)
+  piglow.led(16,3)
+  sleep(0.05)
+  
+  piglow.led(16,4)
+  sleep(0.05)
+  
+  piglow.led(16,3)
+  sleep(0.05)
+  
+  piglow.led(16,2)
+  piglow.led(5,1)
+  sleep(0.05)
+  
+  piglow.led(16,1)
+  piglow.led(5,2)
+  sleep(0.05)
+
+  piglow.led(16,0)
+  piglow.led(5,3)
+  sleep(0.05)
+  
+  piglow.led(5,4)
+  sleep(0.05)
+  
+  piglow.led(5,3)
   sleep(0.05)
   
   
-  
-  
-  
-  
-  
-  piglow.led(14,1)
-  piglow.led(8,0)
-  sleep(0.1)
-
-  piglow.led(3,1)
-  piglow.led(14,0)
-  sleep(0.1)
-
-  piglow.led(9,1)
-  piglow.led(3,0)
-  sleep(0.1)
-
-  piglow.led(15,1)
-  piglow.led(9,0)
-  sleep(0.1)
-
-  piglow.led(4,1)
-  piglow.led(15,0)
-  sleep(0.1)
-
-  piglow.led(10,1)
-  piglow.led(4,0)
-  sleep(0.1)
-
-  piglow.led(16,1)
-  piglow.led(10,0)
-  sleep(0.1)
-
-  piglow.led(5,1)
-  piglow.led(16,0)
-  sleep(0.1)
-
   piglow.led(11,1)
   piglow.led(5,0)
   sleep(0.1)
