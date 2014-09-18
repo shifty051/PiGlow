@@ -350,6 +350,8 @@ while True:
   piglow.led(18,0)
   sleep(0.05)
   
+  
+  
   piglow.red(1)
   sleep(0.05)
   
@@ -413,6 +415,119 @@ while True:
   
   piglow.white(8)
   sleep(2)
+  
+  piglow.white(7)
+  sleep(0.05)
+  
+  piglow.white(6)
+  sleep(0.05)
+  
+  piglow.blue(1)
+  piglow.white(5)
+  sleep(0.05)
+  
+  piglow.blue(2)
+  piglow.white(4)
+  sleep(0.05)
+  
+  piglow.blue(3)
+  piglow.green(1)
+  sleep(0.05)
+  
+  piglow.blue(4)
+  piglow.green(2)
+  sleep(0.05)
+  
+  piglow.green(3)
+  piglow.yellow(1)
+  sleep(0.05)
+  
+  piglow.green(4)
+  piglow.yellow(2)
+  sleep(0.05)
+  
+  piglow.yellow(3)
+  piglow.orange(1)
+  sleep(0.05)
+  
+  piglow.yellow(4)
+  piglow.orange(2)
+  sleep(0.05)
+  
+  piglow.orange(3)
+  piglow.red(1)
+  sleep(0.05)
+  
+  piglow.orange(4)
+  piglow.red(2)
+  sleep(0.05)
+  
+  piglow.red(3)
+  sleep(0.05)
+  
+  piglow.red(4)
+  sleep(1.5)
+  
+  piglow.led(6,0)
+  sleep(0.05)
+  
+  piglow.led(12,0)
+  sleep(0.05)
+  
+  piglow.led(18,0)
+  sleep(0.05)
+  
+  piglow.led(5,0)
+  sleep(0.05)
+  
+  piglow.led(11,0)
+  sleep(0.05)
+  
+  piglow.led(17,0)
+  sleep(0.05)
+  
+  piglow.led(4,0)
+  sleep(0.05)
+  
+  piglow.led(10,0)
+  sleep(0.05)
+  
+  piglow.led(16,0)
+  sleep(0.05)
+  
+  piglow.led(3,0)
+  sleep(0.05)
+  
+  piglow.led(9,0)
+  sleep(0.05)
+  
+  piglow.led(15,0)
+  sleep(0.05)
+  
+  piglow.led(2,0)
+  sleep(0.05)
+  
+  piglow.led(8,0)
+  sleep(0.05)
+  
+  piglow.led(14,0)
+  sleep(0.05)
+  
+  piglow.led(1,0)
+  sleep(0.05)
+  
+  piglow.led(7,0)
+  sleep(0.05)
+  
+  piglow.led(13,5)
+  sleep(0.1)
+  
+  
+  
+  
+  
+  
+  
   
   
   
