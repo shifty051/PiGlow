@@ -107,15 +107,27 @@ while True:
   sleep(0.05)
   
   piglow.blue(1)
-  pigloe.white(2)
+  piglow.white(2)
   sleep(0.05)
   
   piglow.blue(0)
-  pigloe.white(3)
+  piglow.white(3)
   sleep(0.05)
   
-  pigloe.white(4)
-  sleep(2)
+  piglow.white(4)
+  sleep(0.5)
+  
+  piglow.white(3)
+  sleep(0.5)
+  
+  piglow.white(2)
+  sleep(0.5)
+  
+  piglow.white(1)
+  sleep(0.5)
+  
+  piglow.white(0)
+  sleep(1)
   
   
  
