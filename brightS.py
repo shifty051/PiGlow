@@ -6,12 +6,13 @@
 
 from piglow import PiGlow
 from time import sleep
-
 piglow = PiGlow()
 
 piglow.all(0)
 
 while True:
+  
+  i=0
 
   piglow.red(1)
   sleep(0.1)
@@ -270,38 +271,47 @@ while True:
   piglow.all(0)
   sleep(1)
   
-  piglow.arm1(1)
-  sleep(0.1)
+  for i in range(0,4):
   
-  piglow.arm1(2)
-  sleep(0.1)
+   piglow.arm1(1)
+   sleep(0.1)
   
-  piglow.arm1(3)
-  piglow.arm2(1)
-  sleep(0.1)
+   piglow.arm1(2)
+   sleep(0.1)
   
-  piglow.arm1(2)
-  piglow.arm2(2)
-  sleep(0.1)
+   piglow.arm1(3)
+   piglow.arm2(1)
+   sleep(0.1)
   
-  piglow.arm1(1)
-  piglow.arm2(3)
-  piglow.arm3(1)
-  sleep(0.1)
+   piglow.arm1(2)
+   piglow.arm2(2)
+   sleep(0.1)
   
-  piglow.arm1(0)
-  piglow.arm2(2)
-  piglow.arm3(2)
-  sleep(0.1)
+   piglow.arm1(1)
+   piglow.arm2(3)
+   piglow.arm3(1)
+   sleep(0.1)
   
-  piglow.arm2(1)
-  piglow.arm3(3)
-  sleep(0.1)
+   piglow.arm1(0)
+   piglow.arm2(2)
+   piglow.arm3(2)
+   sleep(0.1)
   
-  piglow.arm2(0)
-  piglow.arm3(2)
-  sleep(0.1)
+   piglow.arm2(1)
+   piglow.arm3(3)
+   sleep(0.1)
   
+   piglow.arm2(0)
+   piglow.arm3(2)
+   sleep(0.1)
+  
+   piglow.arm3(1)
+   sleep(0.1)
+  
+   piglow.arm3(0)
+   sleep(0.1)
+  
+   i+=1
   
   
   
